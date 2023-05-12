@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "finanEXPMobile",
+    "slug": "finanEXPMobile",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
