@@ -1,6 +1,6 @@
+import 'react-native-gesture-handler';
 import React, { Component } from 'react';
 import { loadAsync } from 'expo-font';
-import AppLoading from 'expo-app-loading';
 import {
   Roboto_300Light,
   Roboto_400Regular,

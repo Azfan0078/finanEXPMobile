@@ -1,5 +1,5 @@
 import { NavigationContainer } from "@react-navigation/native";
-import { HomeStackRoutes } from "./home/routes/home.stack.routes";
+import { HomeDrawerRoutes } from "./home/routes/home.drawer.routes";
 import { AuthenticationStackRoutes } from "./authentication/routes/authentication.stack.routes";
 import { Component, ReactElement } from "react";
 import { connect } from "react-redux";
@@ -42,7 +42,7 @@ class IndexComponent extends Component<IIndexComponentProps> {
       <NavigationContainer>
         {modals}
         {alerts}
-        {this.props.isAuthenticated ? <HomeStackRoutes /> : <AuthenticationStackRoutes />}
+        {this.props.isAuthenticated ? <HomeDrawerRoutes /> : <AuthenticationStackRoutes />}
       </NavigationContainer>
     );
   }
