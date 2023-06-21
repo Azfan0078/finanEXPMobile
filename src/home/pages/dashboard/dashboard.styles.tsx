@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-const homeStyles = StyleSheet.create({
+const dashboardStyles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
@@ -8,4 +8,4 @@ const homeStyles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
-export default homeStyles;
+export default dashboardStyles;
